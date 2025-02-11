@@ -4,7 +4,7 @@ import csv
 import glob
 from concurrent.futures import ThreadPoolExecutor
 
-# Returns true or false based on if b is unrealistic based on assumption
+# Returns true or false based on if b is unrealistic based on an assumption
 def verify_magnitude(a, b):
     if b >= a * 5:
         return True
